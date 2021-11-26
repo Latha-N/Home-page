@@ -9,13 +9,13 @@ const Part6 = () => {
                     <p>Learn more about my servises, plans and pricing</p>
                 </div>
                 <div className="col-md-6">
-                <div class="d-grid  col-6 mx-auto">
-                    <button class="btn btn-danger" type="button">VIEW PACKAGES</button>
+                <div className="d-grid  col-6 mx-auto">
+                    <button className="btn btn-danger" type="button">VIEW PACKAGES</button>
                 </div>
     </div>
     </div>
     </div>
-
+    
    )
 }
 

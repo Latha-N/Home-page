@@ -8,10 +8,10 @@ const Part8 = () => {
         <h2 className="text-center">TESTIMONIALS</h2>
             <div className="row">
             <div className="col-md-4">
-            <div class="card">
+            <div className="card">
                 <div class="card-body">
-                    <h5 class="card-title">Special title treatment</h5>
-                    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                    <h5 className="card-title">Special title treatment</h5>
+                    <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
                  <img src={image17} width="50" className="imageRadious"/>
                     <h4>DARSHAN ODEYAR</h4>
                         <p>IT professional</p>
@@ -19,10 +19,10 @@ const Part8 = () => {
             </div>
             </div>
             <div className="col-md-4">
-            <div class="card">
+            <div className="card">
                     <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <h5 className="card-title">Special title treatment</h5>
+                        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
                         <img src={image17} width="50" className="imageRadious"/>
                         <h4>DARSHAN ODEYAR</h4>
                         <p>IT professional</p>
@@ -30,10 +30,10 @@ const Part8 = () => {
             </div>
             </div>
             <div className="col-md-4">
-            <div class="card">
-                    <div class="card-body">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            <div className="card">
+                    <div className="card-body">
+                        <h5 className="card-title">Special title treatment</h5>
+                        <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
                         <div className="d-flex">
                         <img src={image17} width="50" className="imageRadious"/>
                         <h4>DARSHAN ODEYAR</h4>
