@@ -1,11 +1,12 @@
 import React from 'react'
-
+import fig3 from '../images/fig3.JPG'
+import fig2 from '../images/fig2.JPG'
 const Part10 = () => {
   return (
-    <div className="container-fluid bg-dark text-white p-3">
+    <div className="container-fluid bg-dark text-white pt-3">
         <div className="row">
-            <div className="col-md-3">
-
+            <div className="col-md-3 p-2">
+              <img src={fig2} width="80%" height="80%"/>
             </div>
             <div className="col-md-3">
                 <h3>Contact</h3>
@@ -27,10 +28,10 @@ const Part10 = () => {
                 <p><a>Free trial</a></p>
             </div>
             <div className="col-md-3">
-
+              <img src={fig3} width="80%" height="80%"/>
             </div>
         </div>
-    </div>
+        </div>
   )
 }
 

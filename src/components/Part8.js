@@ -12,7 +12,7 @@ const Part8 = () => {
                 <div class="card-body">
                     <h5 class="card-title">Special title treatment</h5>
                     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                    <img src={image17} width="50" className="imageRadious"/>
+                 <img src={image17} width="50" className="imageRadious"/>
                     <h4>DARSHAN ODEYAR</h4>
                         <p>IT professional</p>
                 </div>
@@ -34,9 +34,12 @@ const Part8 = () => {
                     <div class="card-body">
                         <h5 class="card-title">Special title treatment</h5>
                         <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                        <div className="d-flex">
                         <img src={image17} width="50" className="imageRadious"/>
                         <h4>DARSHAN ODEYAR</h4>
                         <p>IT professional</p>
+
+                        </div>
                     </div>
                 </div>
             </div>

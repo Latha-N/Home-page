@@ -1,5 +1,6 @@
     import React, { useState } from 'react'
     import image10 from '../images/image10.jpg'
+    import fig4 from '../images/fig4.JPG'
 
     const Part5 = () => {
         const [data,setData] = useState(['Top Lawyers In The Us. Search Top Lawyers In The Us, Information from Trusted Internet Sources. Explore the Best Info Now. 100+ Unique Results. Find All Info You Want. Quick Answers. Useful & Relevant. Find in Seconds. Services: Secure Search, No.1 Answers.','rajesh','girish','gagan','shivamma'])
@@ -36,13 +37,13 @@
                     {renderpagesNumber}
                     </ul>
 
-            <div className="row">
-                <div className="col-md-6 ml-5">
-                    <img src={image10}/>
+            <div className="row align-items-center">
+                <div className="col-md-6 ml-6">
+                    <img src={fig4} className="image-p "/>
                 </div>
                 <div className="col-md-6">
                     <h2>Register</h2>
-                    {currentitems}
+                   <span className="text-wrap"> {currentitems}</span>
                 </div>
             </div>
 

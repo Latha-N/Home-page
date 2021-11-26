@@ -11,7 +11,7 @@ const Part7 = () => {
                 <div className="col-md-6">
                     <img src={image15} className="imageRadious" width="50px"/>
                     <p>Nilesh Stock Market Enthusiast</p>
-                    <p>"Making assumptions that a breakout will occur or that a level <br/>will hold off a further move is 
+                    <p className="text-wrap">"Making assumptions that a breakout will occur or that a level <br/>will hold off a further move is 
                         an attempt to predict the market. <br/>Rather, traders should watch ..."</p>
                     <img src={facebook} width="50"/>
                     <img src={twitter1} width="50"/>
@@ -20,7 +20,7 @@ const Part7 = () => {
 
                 <div className="col-md-6">
                 <div class="embed-responsive embed-responsive-16by9">
-                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY"></iframe>
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/tgbNymZ7vqY" width="100%" height="200"></iframe>
                 </div>
                 </div>
                 </div>
