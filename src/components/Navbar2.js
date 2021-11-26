@@ -27,7 +27,7 @@ const Navbar2 = () => {
 <div className="col-md-3">
   <div class="card border-0">
   <div class="card-body">
-        <i className="fa fa-bar-chart pt-2 fa-4x" style={{fontSize:"60px"}}></i>
+  <i class="fa fa-smile-o" style={{fontSize:"60px"}}></i>
             <h3 className="pt-2">500</h3>
              <hr width="15%" className="text-danger"/>
              <h5>SATISFIED CUSTOMERS</h5>
