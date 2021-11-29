@@ -32,17 +32,17 @@
         <div className="part3 container-fluid">
 
             <div className="container">
-            <h1 className="text-center pt-3">HOW IT WORKS</h1>
+            <h3 className="text-center pt-3">HOW IT WORKS</h3>
             <ul className="pageNumbers d-flex justify-content-center">
                     {renderpagesNumber}
                     </ul>
 
             <div className="row align-items-center">
-                <div className="col-md-6 ml-6">
+                <div className="col-md-6">
                     <img src={fig4} className="image-p "/>
                 </div>
-                <div className="col-md-6">
-                    <h2>Register</h2>
+                <div className="col-md-4">
+                    <h3>Register</h3>
                    <span className="text-wrap"> {currentitems}</span>
                 </div>
             </div>

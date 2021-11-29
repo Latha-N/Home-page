@@ -7,8 +7,8 @@ import fig1 from '../images/fig1.JPG'
 const Part3 = () => {
   return (
     <div className="container-fluid part3">
-            <h2 className="text-center text-dark font-weight-bold pt-4">ABOUT ROCKET</h2>
-            <p className="text-center">We aim to make stock market trading more reliable.Convenient <br/>and portable for people.</p>
+            <h3 className="text-center text-dark font-weight-bold pt-4 mb-4">ABOUT ROCKET</h3>
+            <p className="text-center mb-5">We aim to make stock market trading more reliable.Convenient <br/>and portable for people.</p>
       <div className="row m-4" >
           <div className="col-md-6 " style={{paddingLeft:"50px"}} >
             <img src={image4} width="100%" />
@@ -20,26 +20,28 @@ const Part3 = () => {
         
           <div className="row m-4">
               <div className="col-md-4">
-              <div className="card bg-dark text-white border">
+              <div className="card text-white border">
                 <img src={image5} class="card-img" alt="..."/>
                     <div className="card-img-overlay">
-                        <p className="card-text bottom-left">This lead-in to additional content. This content is a little bit longer.</p>
+                        <p className="card-text bottom-left">This lead-in to additional content. This content is a little bit longer.<br/><i class="fa fa-tag"></i> sensex, sell timing</p>
+
                     </div>
                 </div>
               </div>
               <div className="col-md-4" >
-              <div className="card bg-dark text-white border">
+              <div className="card  text-white border">
                 <img src={image5} class="card-img" alt="..."/>
                     <div className="card-img-overlay">
-                        <p className="card-text bottom-left">This lead-in to additional content. This content is a little bit longer.</p>
+                        <p className="card-text bottom-left">This lead-in to additional content. This content is a little bit longer<br/><i class="fa fa-tag"></i> sensex, sell timing</p>
+
                     </div>
                 </div>            
                 </div>
               <div className="col-md-4">
-              <div className="card bg-dark text-white border">
+              <div className="card  text-white border">
                 <img src={image5} class="card-img" alt="..."/>
                     <div className="card-img-overlay">
-                        <p className="card-text bottom-left">This lead-in to additional content. This content is a little bit longer.</p>
+                        <p className="card-text bottom-left">This lead-in to additional content. This content is a little bit longer<br/><i class="fa fa-tag"></i> sensex, sell timing</p>
                     </div>
                 </div>              
                 </div>

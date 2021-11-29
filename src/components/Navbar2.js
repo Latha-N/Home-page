@@ -3,49 +3,46 @@ import React from 'react'
 const Navbar2 = () => {
   return (
     <div className="container">
-        <div className="row text-center m-5 ">
+        <div className="row  m-5 text-center">
             <div className="col-md-3">
-            <div class="card border-0">
+            <div class="card  border-0">
             <div class="card-body">
-            <i className="fa fa-thumbs-o-up pt-2" style={{fontSize:"60px"}}></i>
-             <h3 className="pt-2">6</h3>
-             <hr width="15%" className="text-danger text-center"/>
-            <h5>SUCCESSFUL YEARS</h5>
+            <i class="fal fa-award fa-5x text-secondary pb-4"></i>
+             <h3 className="pb-3">6</h3>
+            <p>SUCCESSFUL YEARS</p>
       </div>
 </div>
 </div>
 <div className="col-md-3">
 <div class="card border-0 ">
   <div class="card-body">
-          <i className="fa fa-expeditedssl pt-2" style={{fontSize:"60px"}} ></i>
-             <h3 className="pt-2">1200</h3>
-             <hr width="15%" className="text-danger"/>
-             <h5>RELIABLE PREDICTIONS</h5>
+  <i class="fal fa-thumbs-up fa-5x text-secondary pb-4 "></i>
+             <h3 className="pb-3">1200</h3>
+             <p>RELIABLE PREDICTIONS</p>
   </div>
 </div>
 </div>
 <div className="col-md-3">
   <div class="card border-0">
   <div class="card-body">
-  <i class="fa fa-smile-o" style={{fontSize:"60px"}}></i>
-            <h3 className="pt-2">500</h3>
-             <hr width="15%" className="text-danger"/>
-             <h5>SATISFIED CUSTOMERS</h5>
+  <i class="fal fa-smile fa-5x text-secondary pb-4"></i>
+    <h3 className="pb-3">500</h3>
+             <p>SATISFIED CUSTOMERS</p>
   </div>
 </div>
 </div>
 <div className="col-md-3">
   <div class="card border-0">
   <div class="card-body">
-        <i className="fa fa-gear pt-2" style={{fontSize:"60px"}}></i>
-          <h3 className="pt-2">25</h3>
-           <hr width="15%" className="text-danger center"/>
-             <h5>EXPECT ADVISORS</h5>
+  <i class="fal fa-user-shield fa-5x text-secondary pb-4"></i>
+          <h3 className="pb-3">25</h3>
+             <p>EXPECT ADVISORS</p>
   </div>
 </div>
   </div>
 </div>
 </div>
+
 
   )
 }

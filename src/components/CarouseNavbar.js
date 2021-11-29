@@ -3,13 +3,16 @@ import image1 from '../images/image1.jpg'
 import image2 from '../images/image2.jpg'
 import image3 from '../images/image3.jpg'
 import logo1 from '../images/logo1.jpg'
+import lath1 from '../images/lath1.jpg'
+import lath2 from '../images/lath2.jpg'
+import lath3 from '../images/lath3.jpg'
 
 const CarouseNavbar = () => {
   return (
 <>
     <nav className="navbar navbar-expand-lg fixed-top">
-  <div className="container-fluid">
-    <a className="navbar-brand" href="#">Navbar</a>
+  <div className="container">
+    <a className="navbar-brand ml-5 nav-c" href="#">Roket Trades</a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -44,30 +47,27 @@ const CarouseNavbar = () => {
     <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
   </div>
   <div className="carousel-inner">
-    <div className="carousel-item active" data-bs-interval="0">
-      <img src={image1} className="d-block w-100" alt="..." width="100%" height="400"/>
-      <div className="carousel-caption d-none d-md-block top-left">
-        <h5>First slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
+    <div className="carousel-item active" data-bs-interval="2000">
+      <img src={lath1} className="d-block w-100" alt="..." width="100%" height="700"/>
+      
     </div>
-    <div className="carousel-item" data-bs-interval="0">
-      <img src={image3} className="d-block w-100" alt="..." width="100%" height="400"/>
-      <div className="carousel-caption d-none d-md-block top-left">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
+    <div className="carousel-item" data-bs-interval="2000">
+      <img src={lath2} className="d-block w-100" alt="..." width="100%" height="700"/>
     </div>    
-    <div className="carousel-item" data-bs-interval="0">
-      <img src={image3} className="d-block w-100" alt="..." width="100%" height="400"/>
-      <div className="carousel-caption d-none d-md-block top-left">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the first slide.</p>
-      </div>
+    <div className="carousel-item" data-bs-interval="2000">
+      <img src={lath3} className="d-block w-100" alt="..." width="100%" height="700"/>
     </div>
   </div>
   
-
+  <div className="carosel-text">
+         <h2>We help the people trade fearlesly, with time tested strategies</h2>
+         <ul className="ml-3">
+            <li><span className="fa-li"><i className="far fa-check-circle text-danger"></i></span>We understand your market anxiety</li>
+            <li><span className="fa-li"><i className="far fa-check-circle text-danger"></i></span>We work with you till you get profit you expected</li>
+            <li><span className="fa-li"><i className="far fa-check-circle text-danger"></i></span>We send actionable trade calls you phone by SMS</li>
+         </ul>
+         <button class="btnhed">View plans and pricing</button>
+      </div>
 </div> 
 </>
   )
