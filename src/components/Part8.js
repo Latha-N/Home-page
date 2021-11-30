@@ -5,7 +5,7 @@ const Part8 = () => {
   return (
     <div className="container-fluid part3 ">
         <div className="container p-3">
-        <h2 className="text-center">TESTIMONIALS</h2>
+        <h4 className="text-center">TESTIMONIALS</h4>
             <div className="row m-4">
             <div className="col-md-4">
             <div className="card">

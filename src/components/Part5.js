@@ -32,7 +32,7 @@
         <div className="part3 container-fluid">
 
             <div className="container">
-            <h3 className="text-center pt-3">HOW IT WORKS</h3>
+            <h4 className="text-center pt-3">HOW IT WORKS</h4>
             <ul className="pageNumbers d-flex justify-content-center">
                     {renderpagesNumber}
                     </ul>

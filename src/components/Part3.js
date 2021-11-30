@@ -7,7 +7,7 @@ import fig1 from '../images/fig1.JPG'
 const Part3 = () => {
   return (
     <div className="container-fluid part3">
-            <h3 className="text-center text-dark font-weight-bold pt-4 mb-4">ABOUT ROCKET</h3>
+            <h4 className="text-center text-dark font-weight-bold pt-4 mb-4">ABOUT ROCKET</h4>
             <p className="text-center mb-5">We aim to make stock market trading more reliable.Convenient <br/>and portable for people.</p>
       <div className="row m-4" >
           <div className="col-md-6 " style={{paddingLeft:"50px"}} >
