@@ -27,7 +27,7 @@ const Navbar2 = () => {
   <div class="card-body">
   <i class="fal fa-smile fa-5x text-secondary pb-4"></i>
     <h3 className="pb-3">500</h3>
-             <p>SATISFIED CUSTOMERS</p>
+             <p>SATISFIED </p>
   </div>
 </div>
 </div>
