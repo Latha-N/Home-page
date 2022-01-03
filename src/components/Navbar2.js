@@ -36,7 +36,7 @@ const Navbar2 = () => {
   <div class="card-body">
   <i class="fal fa-user-shield fa-5x text-secondary pb-4"></i>
           <h3 className="pb-3">25</h3>
-             <p>EXPECT ADVISORS</p>
+             <p>EXPECT</p>
   </div>
 </div>
   </div>
